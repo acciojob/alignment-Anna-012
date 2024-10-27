@@ -1,40 +1,40 @@
 /* Basic table and cell styling */
 #table-1, #table-2, #table-3, td {
-	border: 1px solid black;
-	border-collapse: collapse;
-	width: 600px;
-	height: 20px;
-	margin: 20px auto; /* center tables horizontally */
-	padding: 1px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 600px;
+    height: 20px;
+    margin: 20px auto; /* center tables horizontally */
+    padding: 1px;
 }
 
 /* Center text alignment */
 .center {
-	text-align: center;
+    text-align: center;
 }
 
 /* Right text alignment */
 .right {
-	text-align: right;
+    text-align: right;
 }
 
 /* Center image inside #t-image cell */
 #t-image {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Background colors for specific rows */
 .green {
-	background-color: green;
+    background-color: green;
 }
 
 .blue {
-	background-color: blue;
+    background-color: blue;
 }
 
 /* Middle class to apply consistent styling if needed */
 .middle {
-	margin: auto;
+    margin: auto;
 }
