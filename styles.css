@@ -1,1 +1,14 @@
-/*  your css code here. If applicable */
+#table-1, td{
+	border:2px solid black;
+	border-collapse:collapse;
+	width:600px;
+	height:20px;
+}
+
+.center{
+	text-align:center;
+}
+
+.right{
+	text-align:left;
+}
