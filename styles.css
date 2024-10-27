@@ -1,8 +1,9 @@
-#table-1, td{
+#table-1, #table-2, td{
 	border:2px solid black;
 	border-collapse:collapse;
 	width:600px;
 	height:20px;
+	margin:20px;
 }
 
 .center{
