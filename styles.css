@@ -1,30 +1,31 @@
+/* Basic table and cell styling */
 #table-1, #table-2, #table-3, td {
 	border: 1px solid black;
 	border-collapse: collapse;
 	width: 600px;
 	height: 20px;
-	margin: 20px;
+	margin: 20px auto; /* center tables horizontally */
 	padding: 1px;
 }
 
-/* Style for center alignment */
+/* Center text alignment */
 .center {
 	text-align: center;
 }
 
-/* Style for right alignment */
+/* Right text alignment */
 .right {
 	text-align: right;
 }
 
-/* Center content inside #t-image cell */
+/* Center image inside #t-image cell */
 #t-image {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-/* Background colors */
+/* Background colors for specific rows */
 .green {
 	background-color: green;
 }
@@ -33,7 +34,7 @@
 	background-color: blue;
 }
 
-/* Style for middle class applied on each table */
+/* Middle class to apply consistent styling if needed */
 .middle {
 	margin: auto;
 }
